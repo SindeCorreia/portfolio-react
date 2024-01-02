@@ -1,0 +1,117 @@
+.divline{margin:0px;}
+.Link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.txtlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Linkedin a {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+    background-color:#0A66C2;
+    margin: auto;
+    transition: background-color 0.5s ease-in;
+    border-radius: 6px;
+}
+.Linkedin :hover{
+    transition: background-color 0.5s ease-in;
+    background-color: #01073b;
+}
+.GitHub a {
+    text-decoration: none;
+    color: white;
+    width: 170px;
+    background-color:#141516;
+    margin: auto;
+    transition: background-color 0.5s ease-in;
+    border-radius: 6px;
+}
+.GitHub :hover {
+    background-color: rgb(141, 80, 0);
+    transition: background-color 0.5s ease-in; 
+}
+.description
+{color: white;
+margin-bottom: 70px;
+}
+
+.Linkedin{
+    width: 170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.GitHub{
+    width: 170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+} 
+.line
+{
+margin-top:0px;
+border-right:2px solid;
+animation: blinkcusor 500ms infinite;
+}
+@keyframes blinkcusor {
+    from {border-right-color:white}
+   to {border-right-color:transparent}
+}
+.description h1,
+.description p {
+    opacity: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.description h1,
+.description p {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.line0 {
+    animation: typing 1s steps(40) 0s forwards, fadeIn 1s 0s forwards;
+}
+
+.line1 {
+    animation: typing 2s steps(40) 1s forwards, fadeIn 1s 1s forwards;
+}
+
+.line2 {
+    animation: typing 3s steps(40) 2s forwards, fadeIn 1s 2s forwards;
+}
+
+.line3 {
+    animation: typing 4s steps(40) 3s forwards, fadeIn 1s 3s forwards;
+}
+
+.line4 {
+    animation: typing 5s steps(40) 4s forwards, fadeIn 1s 4s forwards;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+}

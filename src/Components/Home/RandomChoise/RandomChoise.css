@@ -1,0 +1,31 @@
+.RandomChoise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px; 
+    width: 400px;
+    background-color: #082A4D;
+    border-radius: 50%;
+    margin-top: auto;
+    padding: 10px;
+    animation: spin 20s linear infinite;
+} 
+.Avatar{ 
+    width: 250px;
+    margin: auto;
+    padding: 70px;
+    border-radius:50%;
+    animation: none;
+    position: absolute;
+    animation: negspin 20s linear infinite;
+
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes negspin {
+    100% { transform: rotate(0deg); }
+   0% { transform: rotate(360deg); }
+}
+

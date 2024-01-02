@@ -1,0 +1,8 @@
+.AboutMe {
+    display: flex;
+    height: 600px;
+    margin-top: 100px;
+    background-color: #000b3b;
+    opacity: 0.9;
+    overflow-y:hidden
+}
